@@ -1,0 +1,11 @@
+!*.py
+!*.pdf
+!*.txt
+!*.tex
+!*.bib
+!*.synctex.gz
+!*.ui
+!*.png
+!*.vscode
+!*.json
+!*.fls
