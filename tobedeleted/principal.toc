@@ -1,0 +1,121 @@
+\unhbox \voidb@x \penalty \@M \ \hfill P\IeC {\'a}g.\par 
+\unhbox \voidb@x \penalty \@M \ \hfill \par 
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{section}{1.5cm}{\addvspace {-2pt}}{\makebox [0.78cm][l]{\thecontentslabel }\hspace {1.7em}}{}{\titlerule *[8pt]{.}\contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {section}{}{}{\addvspace {-2pt}}\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{subsection}{3cm}{\addvspace {-2pt}}{\makebox [0.63cm][l]{\thecontentslabel }\hspace {2.1em}}{}{\titlerule *[8pt]{.}\contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {subsection}{}{}{\addvspace {-2pt}}\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{subsubsection}{4.5cm}{\addvspace {-2pt}}{\makebox [20pt][l]{\thecontentslabel }\hspace {3.1em}}{}{\titlerule *[8pt]{.}\contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {subsubsection}{}{}{\addvspace {-2pt}}\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{paragraph}{6.52cm}{\addvspace {0pt}}{\makebox [20pt][l]{\thecontentslabel }\qquad \qquad }{}{\titlerule *[8pt]{.}\contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {paragraph}{}{}{\addvspace {0pt}}\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{chapter}{0pt}{\addvspace {0pt}}{}{\bfseries \normalsize \uppercase }{\titlerule *[8pt]{.}\contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {chapter}{}{}{\addvspace {0pt}}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Carta de aprobaci\IeC {\'o}n para presentaci\IeC {\'o}n}{iii}{section*.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Dedicatoria}{iv}{chapter*.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Agradecimiento}{v}{chapter*.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Resumen}{vi}{section*.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\IeC {\'I}ndice}{vii}{chapter*.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\IeC {\'I}ndice de figuras}{ix}{chapter*.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\IeC {\'I}ndice de tablas}{x}{chapter*.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Introducci\IeC {\'o}n}{1}{chapter*.8}% 
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{chapter}{3.22cm}{\addvspace {7pt}}{\hspace {-3.22cm}\MakeUppercase {\bfseries \chaptername }\hspace {0.1em} \makebox [10pt][l]{\bfseries \thecontentslabel }\bfseries \quad \uppercase }{\hspace {-3.22cm}\bfseries \uppercase }{\hfill \contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {chapter}{}{}{\addvspace {7pt}}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {I}El problema}{3}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Planteamiento del problema}{3}{section*.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Objetivos de la investigaci\IeC {\'o}n}{5}{section*.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Objetivo general}{5}{subsubsection*.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Objetivos espec\IeC {\'\i }ficos}{5}{subsubsection*.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Justificaci\IeC {\'o}n e importancia}{5}{section*.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Alcance y limitaciones}{6}{section*.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {II}Marco Te\IeC {\'o}rico}{8}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Antecedentes}{8}{section*.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Bases te\IeC {\'o}ricas}{9}{section*.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{nivel 2}{10}{subsection*.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{nivel 2}{10}{subsection*.18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{nivel 3}{11}{subsubsection*.19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{nivel 3}{11}{subsubsection*.20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{nivel 3}{11}{subsubsection*.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{nivel 4}{14}{paragraph*.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {III}Marco metodol\IeC {\'o}gico}{15}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Tipo de investigaci\IeC {\'o}n}{15}{section*.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Dise\IeC {\~n}o de la investigaci\IeC {\'o}n}{15}{section*.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Modalidad}{16}{section*.28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Fases de la investigaci\IeC {\'o}n}{16}{section*.29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fase 1: Estudio de los sistemas de control cl\IeC {\'a}sicos y difusos}{16}{paragraph*.30}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fase 2: Codificaci\IeC {\'o}n de rutinas}{16}{paragraph*.31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fase 3: Interfaz gr\IeC {\'a}fica y enlace con rutinas}{17}{paragraph*.32}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fase 4: Comparaci\IeC {\'o}n de resultados}{17}{paragraph*.33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Aspectos administrativos}{18}{section*.34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Factibilidad de la propuesta}{18}{subsubsection*.35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Cronograma de ejecuci\IeC {\'o}n}{18}{subsubsection*.36}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {IV}Resultados}{22}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Resultados}{22}{section*.39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {V}Conclusiones y recomendaciones}{26}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Conclusiones}{26}{section*.40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Recomendaciones}{27}{section*.41}% 
+\defcounter {refsection}{0}\relax 
+\ttl@change@i {\@ne }{chapter}{0pt}{\addvspace {0pt}}{}{\bfseries \normalsize \uppercase }{\titlerule *[8pt]{.}\contentspage }\relax 
+\defcounter {refsection}{0}\relax 
+\ttl@change@v {chapter}{}{}{\addvspace {0pt}}\relax 
+\defcounter {refsection}{0}\relax 
+\vspace {0.4\normalbaselineskip }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Referencias}{30}{chapter*.42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Anexos}{31}{section*.43}% 
+\contentsfinish 
