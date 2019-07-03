@@ -1,9 +1,8 @@
-
-% Plantilla para agregar un glosario basico-
+% Plantilla para agregar un glosario basico
 \newpage
 \chapter*{Glosario}
 \addcontentsline{toc}{chapter}{\protect Glosario}
-\input{glosario}
+	\input{glosario}
 % --------------------------------------------------------------------------------------------------
 
 % Plantilla de ecuacion 
@@ -18,7 +17,7 @@
 	\centering
 	\includegraphics[width=\textwidth]{letraA.png} % el archivo debe estar en la carpeta imagenes
 	\caption[Titulo de la figura, este texto saldra en la lista de figuras]{\textbf{Titulo en negrita}. Texto descriptivo para la figura} 
-	\label{fig:Agrande}
+	\label{fig:label}
 	% [Texto para la lista de figuras]{Texto para el caption}
 \end{figure}
 % --------------------------------------------------------------------------------------------------
@@ -30,14 +29,14 @@
 		\centering
 		\includegraphics[width=\textwidth]{letraA.png} % el archivo debe estar en la carpeta imagenes
 		\caption{\textbf{Texto para el caption a}}
-		\label{fig:A}
+		\label{fig:labelA}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[t]{0.49\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{letraB.png} % el archivo debe estar en la carpeta imagenes
 		\caption{\textbf{Texto para el caption b}}
-		\label{fig:B}
+		\label{fig:labelB}
 	\end{subfigure}
 	
 	\caption[Texto para la lista de figuras 1]{\textbf{Titulo en negrita}. Texto para el caption general \label{fig:Label}}
@@ -56,7 +55,7 @@
 						19, figure, Catalogo de Accesorios para manómetros, fig:Pacc}]{directorio/"nombre de archivo pdf"}
 % --------------------------------------------------------------------------------------------------
 
-% Plantilla para tabla 
+% Plantilla para tabla (NO USAR EN FORMATO UNET)
 \begin{table}[tb]
 	\centering
 	\begin{threeparttable}
@@ -78,7 +77,7 @@
 
 % --------------------------------------------------------------------------------------------------
 
-% Plantilla para tabla ajustada al texto
+% Plantilla para tabla ajustada al texto (Para formato UNET)
 \begin{table}[tb]
 	\centering
 	\begin{threeparttable}
@@ -122,8 +121,9 @@
 				bgcolor=white,
 				baselinestretch=1.5,
 				fontsize=\tiny,]{python}{Ganancias_fuzzy.py}
+% --------------------------------------------------------------------------------------------------
 
-
+% Plantilla para codigo que va en la lista de codigos y con caption
 \begin{listing}[H]
 	\captionof{listing}{Follow behavior}
 	\label{code:1}				
@@ -131,18 +131,116 @@
 	Codigo.... 
 	\end{minted}
 \end{listing}
+% --------------------------------------------------------------------------------------------------
 
-\begin{minted}[xleftmargin=0.5cm, escapeinside=||,mathescape=true, 						autogobble=true,
-obeytabs=true,
-tabsize=4,
-framesep=5mm,
-bgcolor=Snow1,
-baselinestretch=1.5,
-fontsize=\footnotesize]{python}
+% Plantilla para codigo sin agregar a la lista de codigos y sin caption
+\begin{minted}[
+	xleftmargin=0.5cm,
+	escapeinside=||,
+	mathescape=true,
+	autogobble=true,
+	obeytabs=true,
+	tabsize=4,
+	framesep=5mm,
+	bgcolor=Snow1,
+	baselinestretch=1.5,
+	fontsize=\footnotesize]
+	{python}
 	Codigo.... 
 \end{minted}
+% --------------------------------------------------------------------------------------------------
 
-\blockquote[{\cite[p.150]{lara2013herramientas}}]{Texto}
+% Ejemplos de citas: -------------------------------------------------------------------------------
+
+% Citas parafraseadas
+
+% Cita basada en el autor
+bla bla bla \textcite{bibKey} considera que bla bla bla
+% Ejemplo: bla bla bla bla \textcite{ogata2003ingenieria} considera que bla bla bla
+% Produce: bla bla bla Ogata (2003) considera que bla bla bla
+
+% Cita basada en el texto
+bla bla bla y mas bla bla bla \Parencite{bibKey}
+% Ejemplo: bla bla bla y mas bla bla bla \Parencite{ogata2003ingenieria}
+% Produce: bla bla bla y mas bla bla bla (Ogata, 2003)
+
+
+% Citas textuales
+
+% Cita textual basada en el autor, menos de 40 palabras:
+\textcite{bibKey} afirma que \blockquote[p.150]{Texto}. Continuación
+
+% Ejemplo:
+	% bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla. Por algun motivo \textcite{ogata2003ingenieria} afirma que: \blockquote[p.150]{En el análisis presente, se supone que el fluido hidráulico es incompresible y que la fuerza de inercia del pistón de potencia y de la carga es insignificante en comparación con la fuerza hidráulica del pistón de potencia}. Bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla.
+
+% Produce:
+%		bla bla bla bla las das asd asd aadajlsd aslkdlakjsd as asda bla bla bla. Por algun
+% motivo Ogata (2003) afirma que: "En el análisis presente, se supone que el fluido
+% hidráulico es incompresible y	que la fuerza de inercia del pistón de potencia y de la carga
+% es insignificante en comparación con la fuerza hidráulica del pistón de potencia" (p.150). Bla
+% bla bla bla las das asd asd aadajlsd aslkdlakjsd as asda bla bla bla.
+
+
+
+% Cita textual basada en el autor, mas de 40 palabras:
+\textcite{bibKey} afirma que: \blockquote[p.150]{Texto.} Continuación
+
+% Ejemplo:
+	% bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla. Por algun motivo \textcite{ogata2003ingenieria} afirma que: \blockquote[p.150]{En el análisis presente, se supone que el fluido hidráulico es incompresible y que la fuerza de inercia del pistón de potencia y de la carga es insignificante en comparación con la fuerza hidráulica del pistón de potencia. También se supone que la válvula piloto es una válvula con solape cero y que la velocidad del flujo del aceite es proporcional al desplazamiento de la válvula piloto.} bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla.
+
+% Produce:
+
+%		bla bla bla bla las das asd asd aadajlsd aslkdlakjsd as asda bla bla bla. Por algun
+% motivo Ogata (2003) afirma que:
+% 		
+%		En el análisis presente, se supone que el fluido hidráulico es incompresible y
+% 		que la fuerza de inercia del pistón de potencia y de la carga es insignificante
+% 		en comparación con la fuerza hidráulica del pistón de potencia. También se supone
+% 		que la válvula piloto es una válvula con solape cero y que la velocidad del flujo
+% 		del aceite es proporcional al desplazamiento de la válvula piloto. (p.150)
+
+% bla bla bla bla las das asd asd aadajlsd aslkdlakjsd as asda bla bla bla.
+
+% Nota: Blockquote detecta automáticamente si hay mas de 40 palabras, prestar
+% atención al punto respecto a menos de 40 palabras
+
+
+
+% Cita textual basada en el texto, menos de 40 palabras
+bla bla bla \blockquote[{\cite[p.150]{bibKey}}]{Texto}. Continuación
+
+% Ejemplo:
+	% bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla y es que \blockquote[{\cite[p.150]{ogata2003ingenieria}}]{En el análisis presente, se supone que el fluido hidráulico es incompresible y que la fuerza de inercia del pistón de potencia y de la carga es insignificante en comparación con la fuerza hidráulica del pistón de potencia}. Bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla.
+
+% Produce:
+
+% 		bla bla bla bla las das asd asd aadajlsd aslkdlakjsd as asda bla bla bla y es que
+% "En el análisis presente, se supone que el fluido hidráulico es incompresible y que la
+% fuerza de inercia del pistón de potencia y de la carga es insignificante en comparación
+% con la fuerza hidráulica del pistón de potencia" (Ogata, 2003, p.150). Bla bla bla bla
+% las das asd asd aadajlsd aslkdlakjsd as asda bla bla bla.
+
+
+
+% Cita textual basada en el texto, mas de 40 palabras
+bla bla bla \blockquote[{\cite[p.150]{bibKey}}]{Texto.} Continuación
+
+% Ejemplo
+	% bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla y es lógico que algunas cosas pasan y ademas \blockquote[{\cite[p.150]{ogata2003ingenieria}}]{En el análisis presente, se supone que el fluido hidráulico es incompresible y que la fuerza de inercia del pistón de potencia y de la carga es insignificante en comparación con la fuerza hidráulica del pistón de potencia. También se supone que la válvula piloto es una válvula con solape cero y que la velocidad del flujo del aceite es proporcional al desplazamiento de la válvula piloto.} Bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla.
+
+% Produce:
+
+%		bla bla bla bla las das asd asd  aadajlsd aslkdlakjsd as asda bla bla bla y es lógico que
+% algunas cosas pasan y ademas
+% 		
+%		En el análisis presente, se supone que el fluido hidráulico es incompresible y
+% 		que la fuerza de inercia del pistón de potencia y de la carga es insignificante
+% 		en comparación con la fuerza hidráulica del pistón de potencia. También se supone
+% 		que la válvula piloto es una válvula con solape cero y que la velocidad del flujo
+% 		del aceite es proporcional al desplazamiento de la válvula piloto.
+%		(Ogata, 2003, p.150)
+
+% bla bla bla bla las das asd asd aadajlsd aslkdlakjsd as asda bla bla bla.
 % --------------------------------------------------------------------------------------------------
 
 % Manipulaciones de TOC
