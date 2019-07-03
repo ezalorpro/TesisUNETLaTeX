@@ -1,16 +1,16 @@
 % --------------------------------------------------------------------
 % Anexos -------------------------------------------------------------
 
-% Informe académico para la propuesta
+% Código para agregar el informe académico en formato PDF ------------
+% \includepdf[scale=0.7,pages=1,pagecommand={\AgregarAnexo{Informe académico}}, 
+% addtotoc={1, chapter, 0,\bfseries\uppercase{Anexos}, pdf:informe}]{imagenes/informeAcademico}
+% \includepdf[scale=0.7,pages=2, pagecommand={}]{imagenes/informeAcademico}
 % --------------------------------------------------------------------
 % Nota: Si se utiliza este código se deben comentar:
 % \newpage
 % \phantomsection
 % \addcontentsline{toc}{chapter}{Anexos}
 % --------------------------------------------------------------------
-% \includepdf[scale=0.7,pages=1,pagecommand={\AgregarAnexo{Informe académico}}, 
-% addtotoc={1, chapter, 0,\bfseries\uppercase{Anexos}, pdf:informe}]{imagenes/informeAcademico}
-% \includepdf[scale=0.7,pages=2, pagecommand={}]{imagenes/informeAcademico}
 
 \newpage                                % Comentar si se incluye
 \phantomsection                         % primero un pdf

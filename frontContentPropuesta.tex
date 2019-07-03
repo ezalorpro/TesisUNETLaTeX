@@ -4,31 +4,18 @@
 \UnetFormat			% Formato de titulo basado en instructivo TAP de la UNET
 % ------------------------------------------------------------------------
 
-%\frontmatter
 \clearpage
 \spacing{1.5} 
 \setcounter{secnumdepth}{-1}
 \FrontBackStyle							% Estilo frontal y final
 \CenterformatFront						% Formato frontal
 
-\newpage
-\phantomsection
-\addcontentsline{toc}{chapter}{Carta de aprobación para presentación}
-	\input{FrontContent/cartaAprobacion}
-
-\setcounter{page}{4}
-\chapter{Dedicatoria}
-	\input{FrontContent/Dedicatoria}
-
-\chapter{Agradecimiento}
-	\input{FrontContent/Agradecimiento}
-
-\newpage
-\phantomsection
-\addcontentsline{toc}{chapter}{Resumen}
-	\input{FrontContent/Resumen}
+\input{FrontContent/carta_presentacion}
+\input{FrontContent/carta_aceptacion}
+\input{FrontContent/carta_vistobueno}
 
 \clearpage
+\setcounter{page}{5}
 \spacing{1.5} 							% interlineado de los indices
 \tableofcontents						% indice
 	\listoffigures						% Indice de figuras
@@ -42,7 +29,3 @@
 \MainStyle								% Estilo principal
 \pagenumbering{arabic}
 \setcounter{page}{1}
-
-% Introducción
-\chapter{Introducción}
-	\input{FrontContent/Introduccion}
