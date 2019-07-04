@@ -47,7 +47,7 @@ Por otro lado, se agrego en la carpeta un archivo llamado Plantillas.tex, este a
 - Citas
 - otros
 
-Para agregar fuentes de citas, se deben agregar en el archivo referencias.bib, adicionalmente, se agrego el archivo bibliografía.bib en caso de querer generar una, para el caso del formato UNET, no se requiere de bibliografía, solo referencias.
+Para agregar fuentes de citas, se deben agregar en el archivo referencias.bib, adicionalmente, se agrego el archivo bibliografía.bib en caso de querer generar una, para el caso del formato UNET, no se requiere de bibliografía, solo referencias. Para agregar figuras desde .jpg, .png o pdf, se deben agregar a la carpeta imágenes.
 
 Autor: Kleiver Carrasco
 
