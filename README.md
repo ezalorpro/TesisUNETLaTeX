@@ -1,5 +1,5 @@
 # TesisUNETLaTeX
-Formato LaTeX para realizar la propuesta de tesis y la tesis en la UNET
+Formato LaTeX para realizar la propuesta de tesis y el informe final de tesis en la UNET
 
 Este formato fue creado con el proposito de facilitar la realizacion de la propuesta de tesis y el informe final de tesis utilizando LaTeX,
 el formato utilizado se establecio tomando en consideracion el instructivo TAP de la UNET del año 2012.
