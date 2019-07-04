@@ -1,29 +1,29 @@
 # TesisUNETLaTeX
 Formato LaTeX para realizar la propuesta de tesis y el informe final de tesis en la UNET
 
-Este formato fue creado con el proposito de facilitar la realizacion de la propuesta de tesis y el informe final de tesis utilizando LaTeX,
-el formato utilizado se establecio tomando en consideracion el instructivo TAP de la UNET del año 2012.
+Este formato fue creado con el propósito de facilitar la realización de la propuesta de tesis y el informe final de tesis utilizando LaTeX,
+el formato utilizado se estableció tomando en consideración el instructivo TAP de la UNET del año 2012.
 
 ## Requisitos
 
-- Los packages necesarios deberian ser descargados automaticamente por la distribucion Tex que se este utilizando, de no ser el caso, proceder
+- Los packages necesarios deberían ser descargados automáticamente por la distribución Tex que se este utilizando, de no ser el caso, proceder
 a la descarga manual tomando en cuenta los packages que se utilizan en el archivo dependencias.tex
 
-- Uno de los packages utilizados es minted, por tanto, es obligatorio tener Python instalado con la libreria pygments, esto se puede
+- Uno de los packages utilizados es minted, por tanto, es obligatorio tener Python instalado con la librería pygments, esto se puede
 realizar con pip:
 
 ```
 pip install Pygments
 ```
-- El ejecutable de Pygments, Pygmentize, debera estar en el PATH de variables del sistema operativo correspondiente.
+- El ejecutable de Pygments, Pygmentize, deberá estar en el PATH de variables del sistema operativo correspondiente.
 - Se debe agregar el comando de lanzamiento a pdflatex:
 
 ```
 --shell-scape
 ```
 
-- En este formato se utiliza el package biblatex, por tanto, se debe establecer en el editor de Tex el uso de Biber como backend de bibliografia,
-la secuencia recomendada de compilacion para que todo salga bien es:
+- En este formato se utiliza el package biblatex, por tanto, se debe establecer en el editor de Tex el uso de Biber como backend de bibliografía,
+la secuencia recomendada de compilación para que todo salga bien es:
 
 ```
 pdflatex -> biber -> pdflatex
@@ -39,7 +39,7 @@ es recomendable agregar al comando de llamado de pdflatex la orden:
 -recorder
 ```
 
-Por otro lado, se agrego en la carpeta un archivo llamado Plantillas.tex, este archivo contiene snippes de codigos latex para agregar:
+Por otro lado, se agrego en la carpeta un archivo llamado Plantillas.tex, este archivo contiene snippes de códigos latex para agregar:
 - Ecuaciones
 - Figuras
 - Tablas
@@ -47,6 +47,7 @@ Por otro lado, se agrego en la carpeta un archivo llamado Plantillas.tex, este a
 - Citas
 - otros
 
+Para agregar fuentes de citas, se deben agregar en el archivo referencias.bib, adicionalmente, se agrego el archivo bibliografía.bib en caso de querer generar una, para el caso del formato UNET, no se requiere de bibliografía, solo referencias.
 
 Autor: Kleiver Carrasco
 
