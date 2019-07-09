@@ -124,30 +124,33 @@
 % --------------------------------------------------------------------------------------------------
 
 % Plantilla para codigo que va en la lista de codigos y con caption
-\begin{listing}[H]
-	\captionof{listing}{Follow behavior}
+\begin{longlisting}
+	\caption{Titulo del codigo}
 	\label{code:1}				
-	\begin{minted}[escapeinside=||,mathescape=true, autogobble=true]{python}
-	Codigo.... 
+	\begin{minted}[escapeinside=||,
+		mathescape=true,
+		autogobble=true,
+		fontsize=\footnotesize,
+		obeytabs=true,
+		tabsize=4,
+		baselinestretch=1]{python}
+		Código...
 	\end{minted}
-\end{listing}
+\end{longlisting}
 % --------------------------------------------------------------------------------------------------
 
 % Plantilla para codigo sin agregar a la lista de codigos y sin caption
-\begin{minted}[
-	xleftmargin=0.5cm,
-	escapeinside=||,
-	mathescape=true,
-	autogobble=true,
-	obeytabs=true,
-	tabsize=4,
-	framesep=5mm,
-	bgcolor=Snow1,
-	baselinestretch=1.5,
-	fontsize=\footnotesize]
-	{python}
-	Codigo.... 
-\end{minted}
+\begin{longlisting}			
+	\begin{minted}[escapeinside=||,
+		mathescape=true,
+		autogobble=true,
+		fontsize=\footnotesize,
+		obeytabs=true,
+		tabsize=4,
+		baselinestretch=1]{python}
+		Código...
+	\end{minted}
+\end{longlisting}
 % --------------------------------------------------------------------------------------------------
 
 % Ejemplos de citas: -------------------------------------------------------------------------------

@@ -60,6 +60,49 @@
 			\paragraph{nivel 4}
 
 				\blindtext
+
+				\begin{longlisting}
+					\caption{Titulo del codigo}
+					\label{code:1}				
+					\begin{minted}[escapeinside=||,
+						mathescape=true,
+						autogobble=true,
+						fontsize=\footnotesize,
+						obeytabs=true,
+						tabsize=4,
+						baselinestretch=1]{python}
+						import control as ctrl
+						from matplotlib import pyplot as plt 
+
+						Hs = ctrl.tf([1, 2], [3, 4, 5])
+						t, y = ctrl.step_response(Hs)
+						plt.plot(t, y, 'r', linestyle=':', linewidth=3)
+						plt.grid()
+						plt.show()
+					\end{minted}
+				\end{longlisting}
+
+				\blindtext
+
+				\begin{longlisting}				
+					\begin{minted}[escapeinside=||,
+						mathescape=true,
+						autogobble=true,
+						fontsize=\footnotesize,
+						obeytabs=true,
+						tabsize=4,
+						baselinestretch=1]{python}
+						# Runge-Kutta para ecuaciones de espacio de estado
+						def runge_kutta(t, ss, h, x, u):
+							k1 = h * (ss.A * x + ss.B * u)
+							k2 = h * (ss.A * (x+k1/2) + ss.B * u)
+							k3 = h * (ss.A * (x+k2/2) + ss.B * u)
+							k4 = h * (ss.A * (x+k3) + ss.B * u)
+							x = x + (1/6)*(k1 + 2*k2 + 2*k3 + k4)
+							y = ss.C * x + ss.D * u
+							return y, x
+					\end{minted}
+				\end{longlisting}
 	
 		
 			
