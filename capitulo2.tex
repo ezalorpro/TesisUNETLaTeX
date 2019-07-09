@@ -72,10 +72,13 @@
 						tabsize=4,
 						baselinestretch=1]{python}
 						import control as ctrl
-						from matplotlib import pyplot as plt 
-
+						from matplotlib import pyplot as plt
+						
+						# Creacion de la funcion de transferencia
 						Hs = ctrl.tf([1, 2], [3, 4, 5])
 						t, y = ctrl.step_response(Hs)
+						
+						# Graficacion de la respuesta escalon
 						plt.plot(t, y, 'r', linestyle=':', linewidth=3)
 						plt.grid()
 						plt.show()
@@ -103,6 +106,8 @@
 							return y, x
 					\end{minted}
 				\end{longlisting}
+
+				\blindtext
 	
 		
 			
