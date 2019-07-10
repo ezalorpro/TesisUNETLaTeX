@@ -52,3 +52,5 @@ Para agregar fuentes de citas, se deben agregar en el archivo referencias.bib, a
 Autor: Kleiver Carrasco
 
 Correo: kleiver615@gmail.com
+
+**Nota:** El estilo de referencias indicado por el instructivo TAP de la UNET es un APA modificado, el cual, no fue implementado, por tanto, se utiliza APA sin modificar.
