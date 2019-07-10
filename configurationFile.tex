@@ -119,6 +119,52 @@
 		\end{center}
 		
 	}
+
+	% Configuracion de capitulos -----------------
+	\newcommand{\Centerformat}{
+		\setcounter{secnumdepth}{0}
+		\titleformat{\chapter}[display]
+		{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
+		\titlespacing{\chapter}
+		{0pt}{-5pt}{20pt}
+		
+		\titlecontents{chapter}% <section-type>
+			[3.22cm]% <left>
+			{\addvspace{7pt}}% <above-code>
+			{\hspace{-3.22cm}\MakeUppercase{\bfseries\chaptername}\hspace{0.1em}
+			\makebox[10pt][l]{\bfseries\thecontentslabel}\bfseries\quad\uppercase}% <numbered-entry-format>
+			{\hspace{-3.22cm}\bfseries\uppercase}% <numberless-entry-format>
+			{\hfill\contentspage}[\addvspace{7pt}]
+	}
+
+	\newcommand{\CenterformatBack}{
+		\titleformat{\chapter}[display]
+		{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
+		\titlespacing{\chapter}
+		{0pt}{-15pt}{30pt}
+		
+		\titlecontents{chapter}% <section-type>
+			[0pt]% <left>
+			{\addvspace{0pt}}% <above-code>
+			{}% <numbered-entry-format>
+			{\bfseries\normalsize\uppercase}% <numberless-entry-format>
+			{\titlerule*[8pt]{.}\contentspage}[\addvspace{0pt}]
+	}
+
+	\newcommand{\CenterformatFront}{
+		\setcounter{secnumdepth}{-1}
+		\titleformat{\chapter}[display]
+		{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
+		\titlespacing{\chapter}
+		{0pt}{-25pt}{10pt}
+		
+		\titlecontents{chapter}% <section-type>
+			[0pt]% <left>
+			{\addvspace{0pt}}% <above-code>
+			{}% <numbered-entry-format>
+			{\bfseries\normalsize\uppercase}% <numberless-entry-format>
+			{\titlerule*[8pt]{.}\contentspage}[\addvspace{0pt}]
+	}
 }
 
 
@@ -208,55 +254,75 @@
 		{\hspace{\paragraphlenght}\makebox[\widthof{\thecontentslabel}][l]{\thecontentslabel}\hspace{0.5cm}}% <numbered-entry-format>
 		{}% <numberless-entry-format>
 		{\titlerule*[8pt]{.}\contentspage}[\addvspace{0pt}]
+
+	% Comando para agregar anexos en formato UNET
+	\newcounter{LAnexos} % contador
+	\setcounter{LAnexos}{1} % contador en 1
+	\def\thecontaAnexos{\Alph{LAnexos}}%
+
+	\newcommand{\AgregarAnexo}[1]{%
+		\clearpage%
+		\newpage%
+		\begin{center}%
+		[Anexo~\thecontaAnexos]\par%
+		[##1]%
+		\stepcounter{LAnexos}
+		\vspace{10pt}%
+		\leavevmode
+		\end{center}
+		
+	}
+
+	% Configuracion de capitulos -----------------
+	\newcommand{\Centerformat}{
+		\setcounter{secnumdepth}{4}
+		\titleformat{\chapter}[display]
+		{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
+		\titlespacing{\chapter}
+		{0pt}{-5pt}{20pt}
+		
+		\titlecontents{chapter}% <section-type>
+			[3.22cm]% <left>
+			{\addvspace{7pt}}% <above-code>
+			{\hspace{-3.22cm}\MakeUppercase{\bfseries\chaptername}\hspace{0.1em}
+			\makebox[10pt][l]{\bfseries\thecontentslabel}\bfseries\quad\uppercase}% <numbered-entry-format>
+			{\hspace{-3.22cm}\bfseries\uppercase}% <numberless-entry-format>
+			{\hfill\contentspage}[\addvspace{7pt}]
+	}
+
+	\newcommand{\CenterformatBack}{
+		\titleformat{\chapter}[display]
+		{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
+		\titlespacing{\chapter}
+		{0pt}{-15pt}{30pt}
+		
+		\titlecontents{chapter}% <section-type>
+			[0pt]% <left>
+			{\addvspace{0pt}}% <above-code>
+			{}% <numbered-entry-format>
+			{\bfseries\normalsize\uppercase}% <numberless-entry-format>
+			{\titlerule*[8pt]{.}\contentspage}[\addvspace{0pt}]
+	}
+
+	\newcommand{\CenterformatFront}{
+		\setcounter{secnumdepth}{-1}
+		\titleformat{\chapter}[display]
+		{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
+		\titlespacing{\chapter}
+		{0pt}{-25pt}{10pt}
+		
+		\titlecontents{chapter}% <section-type>
+			[0pt]% <left>
+			{\addvspace{0pt}}% <above-code>
+			{}% <numbered-entry-format>
+			{\bfseries\normalsize\uppercase}% <numberless-entry-format>
+			{\titlerule*[8pt]{.}\contentspage}[\addvspace{0pt}]
+	}
+
 }
 
 % FORMATO NUMERADO FIN -----------------------
 % --------------------------------------------
-
-
-% Configuracion de capitulos -----------------
-\newcommand{\Centerformat}{
-	\titleformat{\chapter}[display]
-	{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
-	\titlespacing{\chapter}
-	{0pt}{-5pt}{20pt}
-	
-	\titlecontents{chapter}% <section-type>
-		[3.22cm]% <left>
-		{\addvspace{7pt}}% <above-code>
-		{\hspace{-3.22cm}\MakeUppercase{\bfseries\chaptername}\hspace{0.1em}
-		\makebox[10pt][l]{\bfseries\thecontentslabel}\bfseries\quad\uppercase}% <numbered-entry-format>
-		{\hspace{-3.22cm}\bfseries\uppercase}% <numberless-entry-format>
-		{\hfill\contentspage}[\addvspace{7pt}]
-}
-
-\newcommand{\CenterformatBack}{
-	\titleformat{\chapter}[display]
-	{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
-	\titlespacing{\chapter}
-	{0pt}{-15pt}{30pt}
-	
-	\titlecontents{chapter}% <section-type>
-		[0pt]% <left>
-		{\addvspace{0pt}}% <above-code>
-		{}% <numbered-entry-format>
-		{\bfseries\normalsize\uppercase}% <numberless-entry-format>
-		{\titlerule*[8pt]{.}\contentspage}[\addvspace{0pt}]
-}
-
-\newcommand{\CenterformatFront}{
-	\titleformat{\chapter}[display]
-	{\large\bfseries\centering}{\MakeUppercase{\chaptertitlename\ \thechapter}}{0pt}{\large\MakeUppercase}
-	\titlespacing{\chapter}
-	{0pt}{-25pt}{10pt}
-	
-	\titlecontents{chapter}% <section-type>
-		[0pt]% <left>
-		{\addvspace{0pt}}% <above-code>
-		{}% <numbered-entry-format>
-		{\bfseries\normalsize\uppercase}% <numberless-entry-format>
-		{\titlerule*[8pt]{.}\contentspage}[\addvspace{0pt}]
-}
 
 % ---------------------------------------------------------------------
 
