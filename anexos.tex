@@ -17,8 +17,11 @@
 \addcontentsline{toc}{chapter}{Anexos}  % Para evitar problemas TOC
 
 % Para agregar anexos a la tesis
-\AgregarAnexo{Titulo del anexo}
+% Los anexos pueden referenciarse en el texto utilizando \ref{labeldelanexo}, i.g.
+% bla bla \ref{labeldelanexoA} se mostraría como: bla bla [Anexo A]
+
+\AgregarAnexo{Titulo del anexo}{labeldelanexoA}
     \blindtext
 
-\AgregarAnexo{Titulo de otro anexo}
+\AgregarAnexo{Titulo de otro anexo}{labeldelanexoB}
     \blindtext
